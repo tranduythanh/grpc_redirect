@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package tranduythanh.grpc_redirect;
+option go_package = "grpc_redirect";
+
+message RedirectParams {
+  string url = 1;
+}
+
